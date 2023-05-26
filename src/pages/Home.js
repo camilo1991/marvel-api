@@ -1,10 +1,11 @@
-import Header from "../components/Header/Header";
+import BestCharacters from "../components/BestCharacters/BestCharacters";
+import ListLastEvents from "../components/ListLastEvent/ListLastEvent";
 
 export default function Home() {
     return (
         <div>
-            <p>Estamos en Home</p>
-            <Header />
+            <BestCharacters />
+            <ListLastEvents />
         </div>
     );
 }
