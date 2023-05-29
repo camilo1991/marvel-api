@@ -21,6 +21,10 @@ export default function ListComics({ listComics, renderComics, setRenderComics }
         <Card.Group itemsPerRow={5}>
             {results.map((res, index) => (
                 <Card key={index} className="list-comics">
+                    <Image src={`${res.thumbnail.path}.${res.thumbnail.extension}`} 
+                        wrapped 
+                        ui={false}
+                    />
                     <Card.Content>
                         <Card.Header>{res.title}</Card.Header>
                         <Card.Meta>

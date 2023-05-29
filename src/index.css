@@ -46,6 +46,14 @@ code {
   background-position: top;
 }
 
+#error404-image {
+  padding: 50px 0;
+  width: 100%;
+  background-image: url(./img/page-404.jpeg);
+  height: 100vh;
+  background-size: cover;
+}
+
 .error-404-context-text {
   display: flex !important;
   align-items: center !important;
@@ -53,8 +61,10 @@ code {
   height: 100vh;
 }
 
-.error-404 .error-404-context-text h1 {
+.error-404 {
   color: white;
+  padding: 10px 10px;
+  font-size: 36px;
 }
 
 .error-404 .error-404-context-text h2 {

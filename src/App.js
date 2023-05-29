@@ -14,14 +14,16 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
+      <Header />
         <Switch>
+          
           <Route path="/" exact component={() => <Home />} />
           <Route path="/inicio" exact component={() => <Home />} />
           <Route path="/series" exact component={() => <Series />} />
           <Route path="/comics" exact component={() => <Comics />} />
-          <Route component={() => <Error404 />} />
+          
         </Switch>
+        <Route component={() => <Error404 />} />
       </Router>
     </div>
   );
