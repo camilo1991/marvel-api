@@ -21,9 +21,9 @@ function App() {
           <Route path="/inicio" exact component={() => <Home />} />
           <Route path="/series" exact component={() => <Series />} />
           <Route path="/comics" exact component={() => <Comics />} />
-          
+          <Route component={() => <Error404 />} />  
         </Switch>
-        <Route component={() => <Error404 />} />
+        
       </Router>
     </div>
   );

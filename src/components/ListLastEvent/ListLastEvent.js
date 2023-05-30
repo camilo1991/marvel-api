@@ -16,7 +16,6 @@ export default function ListLastEvents() {
             <Container>
                 <Card.Group itemsPerRow={5}>
                     <LastEvents lastEventsFetch={lastEventsFetch} />
-
                 </Card.Group>
             </Container>
         </div>
